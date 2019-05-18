@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SWCharBox = props => {
     
     return (
@@ -7,6 +6,7 @@ const SWCharBox = props => {
             <h1>{props.name}</h1>
             {console.log(props.name)}
             <div className="swCharBoxInfo">
+                {/* {props.starwars} */}
                 <span>Hair color: {props.hairColor}</span>
                 <br></br>
                 <span>Gender: {props.gender}</span>
