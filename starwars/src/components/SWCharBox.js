@@ -6,12 +6,11 @@ const SWCharBox = props => {
             <h1>{props.name}</h1>
             {console.log(props.name)}
             <div className="swCharBoxInfo">
-                {/* {props.starwars} */}
-                <span>Hair color: {props.hairColor}</span>
+                Hair color: <span>{props.hairColor}</span>
                 <br></br>
-                <span>Gender: {props.gender}</span>
+                Gender: <span>{props.gender}</span>
                 <br></br>
-                <span>Birth Year: {props.birthYear}</span>
+                Birth Year: <span>{props.birthYear}</span>
             </div>
         </div>
     );
