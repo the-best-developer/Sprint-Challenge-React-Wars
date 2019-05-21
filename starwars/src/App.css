@@ -6,3 +6,34 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.swCharContainer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.swCharList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.swCharBox {
+  width: 28%;
+  min-height: 250px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(0,0,0,0.85);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+  line-height: 40px;
+}
+
+.swCharBox h1 {
+  color: burlywood;
+}
+
+.swCharBoxInfo span {
+  color: maroon;
+}
